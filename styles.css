@@ -7614,6 +7614,10 @@ textarea.form-control-lg {
   margin-top: 3rem !important;
 }
 
+.loSpazio {
+   margin-top: 40px;
+}
+
 .mt-auto {
   margin-top: auto !important;
 }
