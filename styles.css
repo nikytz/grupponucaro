@@ -7724,7 +7724,6 @@ textarea.form-control-lg {
   pointer-events: none;
 }
 
-/* Animazione: parte da destra fuori schermo, esce a sinistra completamente */
 @keyframes moveDwarfs {
   0% {
     transform: translateY(-50%) translateX(100%);
