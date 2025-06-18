@@ -7711,12 +7711,11 @@ textarea.form-control-lg {
 
 .dwarfs {
   display: flex;
-  gap: 20px; /* Puoi cambiare a 10px o 30px come preferisci */
+  gap: 20px;
   position: absolute;
   top: 50%;
-  left: 100vw; /* parte fuori dalla destra della viewport */
   transform: translateY(-50%);
-  animation: moveDwarfs 10s linear infinite;
+  animation: moveDwarfs 12s linear infinite;
 }
 
 .dwarfs img {
@@ -7725,12 +7724,13 @@ textarea.form-control-lg {
   pointer-events: none;
 }
 
+/* Animazione: parte da destra fuori schermo, esce a sinistra completamente */
 @keyframes moveDwarfs {
   0% {
-    transform: translateY(-50%) translateX(0);
+    transform: translateY(-50%) translateX(100%);
   }
   100% {
-    transform: translateY(-50%) translateX(-100vw);
+    transform: translateY(-50%) translateX(-100%);
   }
 }
 
