@@ -8283,8 +8283,15 @@ textarea.form-control-lg {
 
 
 .sfondoSopra{
-  background: url("foto1.png") no-repeat center center;
-  background-size: cover;
+  background-color: whyte;
+}
+
+.titoloSopra{
+  color: green;
+}
+
+.sottotitoloSopra{
+  color: grey;
 }
 
 
