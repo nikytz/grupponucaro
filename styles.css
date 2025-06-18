@@ -8278,9 +8278,20 @@ textarea.form-control-lg {
 
 .bg-dark {
   --bs-bg-opacity: 1;
-  background: url("foto1.png") no-repeat center center;
-  background-size: cover
+  background-color: green !important;
 }
+
+
+.sfondoSopra{
+  background: url("foto1.png") no-repeat center center;
+  background-size: cover;
+}
+
+
+
+
+
+
 
 .bg-black {
   --bs-bg-opacity: 1;
