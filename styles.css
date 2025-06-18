@@ -7699,7 +7699,6 @@ textarea.form-control-lg {
 }
 
 
-
 .dwarfs-area {
   position: relative;
   width: 100vw;
@@ -7714,6 +7713,7 @@ textarea.form-control-lg {
   gap: 20px;
   position: absolute;
   top: 50%;
+  left: 100vw;
   transform: translateY(-50%);
   animation: moveDwarfs 12s linear infinite;
 }
@@ -7726,10 +7726,10 @@ textarea.form-control-lg {
 
 @keyframes moveDwarfs {
   0% {
-    transform: translateY(-50%) translateX(100%);
+    left: 100vw;
   }
   100% {
-    transform: translateY(-50%) translateX(-100%);
+    left: -480px;
   }
 }
 
