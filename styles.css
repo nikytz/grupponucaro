@@ -8217,7 +8217,7 @@ textarea.form-control-lg {
 
 .text-white-50 {
   --bs-text-opacity: 1;
-  color: grey !important;
+  color: rgba(255, 255, 255, 0.5) !important; 
 }
 
 .text-reset {
@@ -8278,7 +8278,8 @@ textarea.form-control-lg {
 
 .bg-dark {
   --bs-bg-opacity: 1;
-  background-color: white !important;
+  background: url("foto1.png") no-repeat center center;
+  background-size: cover
 }
 
 .bg-black {
